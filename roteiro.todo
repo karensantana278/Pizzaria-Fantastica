@@ -1,0 +1,64 @@
+✔ ☐ Faça com que a imagem de background da página (body) permaneça parada quando rolamos o conteúdo @done(21-07-22 19:57)
+Dica: background-attachment
+✔ Zere margens e padding do body @done(21-07-22 21:15)
+✔ Altere o index.html para que ele importe a fonte Montserrat do Google Fonts @done(21-07-22 21:15)
+
+Use o seletor universal para determinar que:
+    ✔ A font em todos os elementos da página como 'Montserrat' com fallback em sans-serif @done(21-07-22 21:15)
+    ✔ O acréscimo de padding aos elementos não farão que ele se torne maior (box-sizing) @done(21-07-22 21:15)
+
+✔ Use o seletor html para fixar um tamanho padrão da fonte em 16px @done(21-07-22 21:15)
+
+Faça que o form tenha as seguintes característica:
+    ✔ Cor de fundo preto com transparência 50% @done(21-07-22 21:15)
+    ✔ Ocupe toda a largura da tela @done(21-07-22 21:15)
+    ✔ Mantenha-se posicionato no top da tela, ainda que o conteúdo da página seja rolado p/ baixo @done(21-07-22 21:15)
+    ✔ Os elementos dele tenham uma distância de 20px até a borda. (preenchimento ou padding) @done(21-07-22 21:15)
+
+Faça com que o botão de busca tenha:
+    ✔ Cor da fonte branca @done(21-07-22 21:15)
+    ✔ Cor de fundo rgb(255, 81, 0) @done(21-07-22 21:15)
+    ✔ Tamanho de fonte duas vezes maior que a fonte padrão (unidade rem) @done(21-07-22 21:15)
+    ✔ Largura 25% @done(21-07-22 21:15)
+    ✔ Largura mínima de 130px @done(21-07-22 21:15)
+    ✔ Nenhuma borda @done(21-07-22 21:15)
+
+Faça com que o campo de busca:
+    ✔ x☐ nenhuma borda @done(21-07-22 21:11)
+    ✔ x☐ Ocupe todo o restante da largura do form @done(21-07-22 21:11)
+    ✔ x☐ Tamanho de fonte duas vezes maior que a fonte padrão (unidade rem) @done(21-07-22 21:10)
+    ✔ x☐ preenchimento de 10px @done(21-07-22 21:10)
+    ✔ x☐ 5px de distância do botão de enviar @done(21-07-22 21:10)
+    ✔ x☐ quando o cursor estiver nele, ele possua um outline de 3px solido de cor rgb(255, 81, 0); @done(21-07-22 21:10)
+    ✔ x☐ quando focado a cor de fundo fique branca, @done(21-07-22 21:10)
+    ✔ x☐ qua haja uma transição da cor original para a branco que dure 0.3s @done(21-07-22 21:10)
+    ✔ x☐ Tenha a mesma altura do botão (dica: display flex) @done(21-07-22 21:10)
+
+Faça com que a section:
+    ✔ x☐ Tenha um display do tipo grade (grid) @done(21-07-22 21:10)
+    ✔ x☐ A grade tenha quatro colunas (grid-template-columns) @done(21-07-22 21:10)
+    ✔ x☐ Todas as celulas do grid tenham a mesma altura (grid-auto-rows:1fr) @done(21-07-22 21:10)
+    ✔ x☐ Espaço entre cada celula da grade de 10px (gap) @done(21-07-22 21:10)
+    ✔ x☐ Tenha uma margem superior de 99px e de 20px para as outras direções @done(21-07-22 21:10)
+    *** Corrija a posição do form estabelecendo valores para top e left
+    *** Sei que você pode estar sofrendo com as imagens da pizza sendo exibidas
+        estourando o limite horizontal da tela. Trataremos isso com regras para os img.
+
+Faça com que a imagem de cada article:
+    ✔ x☐ tenha 100% de altura @done(21-07-22 21:10)
+    ✔ x☐ tenha 100% de altura @done(21-07-22 21:10)
+    *** Perceba que a imagem está distorcendo. Isso acontece por que
+        originalmente ela não tem o formato quadrado
+    ✔ x☐ solucione aplicando a regra object-fit:cover da imagem @done(21-07-22 21:10)
+
+Faça com que o botão de cada article
+    ✔ tenha 100% de altura @done(21-07-22 21:10)
+    ✔ tenha 100% de largura @done(21-07-22 21:10)
+    ✔ seja posicionado a 0px da borda superior do article com position absolute @done(21-07-22 21:10)
+    ✔ seja posicionado a 0px da esquerda do article com position absolute @done(21-07-22 21:10)
+    ** aqui seu layout deve quebrar. Por que quebrou? Como consertar?
+    ✔ seja inicialmente transparente @done(21-07-22 21:10)
+
+✔ Faça com que o botão de cada article apareça quando o mouse estiver sobre esse article com efeito esmaecer de 0.3s para a opacidade de 80% @done(21-07-22 21:10)
+
+✔ Faça com que o nome e o preço das pizzas apareçam apresenta imagem @done(21-07-22 21:10)
